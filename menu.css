@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body {
+     height: 100vh;
+     color:rgb(17, 16, 16);
+     background-color: #c9c8a4;
+     align-items: center;
+    background-position: 50%;
+    
+     }     
+     nav {
+        background-color: rgb(243, 235, 237);
+        padding-left: 2vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        }
+
+        .main-ul {
+            display: flex;
+            align-items: center;
+            }
+
+            li {
+                list-style: none;
+                cursor: pointer;
+                padding: 1.5vw;
+                transition: 0.3s ease;
+                }
+
+                li:hover {
+                    background-color: #b96b12;
+                    }
+
+                    .develop {
+                        position: relative;
+                    }
+
+                    .second-ul {
+                        display: none;
+                        position: absolute;
+                        margin-top: 1.5vw;
+                        }
+
+                        .develop:hover>.second-ul {
+                            display: block;
+                            }
+     
+                            .second-ul>.li {
+                                width: 190px;
+                                transform: translateX(-20px);
+                                border-bottom: solid 1px;
+                                text-align: center;
+                                background-color: #1e8df5;
+                                }
+                         
+.second-ul>.li:hover{
+
+background-color: #008849;
+}
+
+.develop:hover {
+    display: block;
+    }
+
+    .third-ul {
+        position: absolute;
+        transform: translateX(100%);
+        right: 0;
+        top: 50%;
+        display: none;
+        background-color: #d0d2db;
+        }
+
+        .third-ul>.li {
+            padding: 1.5vw;
+            border-bottom: solid 1px white;
+            }
+
+            .front:hover>.third-ul{
+                display: block;
+                }
+
+    h1{
+        font-size: 350%;
+        color: rgb(0, 17, 255);
+        background-color: rgb(136, 101, 131);
+        font-family: Goudy Stout;
+        width: 75%;
+        text-align: center;
+        
+    }
+
+    img{
+        top: 75%;
+        width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 100%;
+
+    }
+    
+    h2{
+        color: rgb(15, 16, 17);
+        font-family: Copperplate Gothic Bold;
+        font-size: 130%;
+    }
+
+
+
+
+
+
+
+                            
